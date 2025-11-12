@@ -1,0 +1,46 @@
+ body {
+  background-color: lightcyan;
+ }
+ 
+ 
+ 
+ 
+ h1 {
+  color: blue;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+  font-size: 43px;
+ }
+
+ p.abc:first-letter {
+font-size: 43px;
+font-weight: bold;
+color: darkblue;
+ }
+ p {
+  text-align: center;
+  font-style: oblique;
+  font-size: 23px;
+}
+
+p.bca::first-letter {
+  font-size: 43px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+footer {
+  text-align: center 
+} 
+ 
+a:link {
+  color: crimson;
+  text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: deeppink;
+    text-decoration: underline;
+  }
